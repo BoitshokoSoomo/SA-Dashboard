@@ -1,0 +1,17 @@
+{
+  "name": "sa-dashboard",
+  "version": "1.0.0",
+  "description": "South Africa dashboard visualising unemployment, load shedding, and crime statistics from 2019 to 2024.",
+  "main": "src/App.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["south-africa", "dashboard", "react", "data-visualization"],
+  "author": "Boitshoko Soomo",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
+    "recharts": "^3.8.1"
+  }
+}

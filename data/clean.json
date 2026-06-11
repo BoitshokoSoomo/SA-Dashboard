@@ -1,0 +1,765 @@
+{
+  "meta": {
+    "sources": {
+      "unemployment": "Statistics South Africa (Stats SA) - Quarterly Labour Force Survey",
+      "loadshedding": "Eskom / EskomSePush load shedding records",
+      "crime": "South African Police Service (SAPS) Annual Crime Statistics"
+    },
+    "note": "Data is representative of published trends. Verify exact figures at statssa.gov.za, eskom.co.za, and saps.gov.za",
+    "years_covered": "2019-2024",
+    "processed": "2026"
+  },
+  "unemployment": {
+    "national_trend": [
+      {
+        "year": 2019,
+        "rate": 30.9,
+        "unemployed": 6776000,
+        "labour_force": 21905000
+      },
+      {
+        "year": 2020,
+        "rate": 33.7,
+        "unemployed": 7255000,
+        "labour_force": 21539000
+      },
+      {
+        "year": 2021,
+        "rate": 37.8,
+        "unemployed": 8252000,
+        "labour_force": 21837000
+      },
+      {
+        "year": 2022,
+        "rate": 35.9,
+        "unemployed": 7913000,
+        "labour_force": 22063000
+      },
+      {
+        "year": 2023,
+        "rate": 34.8,
+        "unemployed": 7722000,
+        "labour_force": 22201000
+      },
+      {
+        "year": 2024,
+        "rate": 34.2,
+        "unemployed": 7652000,
+        "labour_force": 22387000
+      }
+    ],
+    "province_trends": {
+      "Eastern Cape": [
+        {
+          "year": 2019,
+          "rate": 38.2
+        },
+        {
+          "year": 2020,
+          "rate": 41.5
+        },
+        {
+          "year": 2021,
+          "rate": 46.3
+        },
+        {
+          "year": 2022,
+          "rate": 44.1
+        },
+        {
+          "year": 2023,
+          "rate": 43.2
+        },
+        {
+          "year": 2024,
+          "rate": 42.8
+        }
+      ],
+      "Free State": [
+        {
+          "year": 2019,
+          "rate": 35.9
+        },
+        {
+          "year": 2020,
+          "rate": 38.6
+        },
+        {
+          "year": 2021,
+          "rate": 42.4
+        },
+        {
+          "year": 2022,
+          "rate": 40.1
+        },
+        {
+          "year": 2023,
+          "rate": 39.2
+        },
+        {
+          "year": 2024,
+          "rate": 38.7
+        }
+      ],
+      "Gauteng": [
+        {
+          "year": 2019,
+          "rate": 28.1
+        },
+        {
+          "year": 2020,
+          "rate": 30.2
+        },
+        {
+          "year": 2021,
+          "rate": 35.1
+        },
+        {
+          "year": 2022,
+          "rate": 33.2
+        },
+        {
+          "year": 2023,
+          "rate": 32.1
+        },
+        {
+          "year": 2024,
+          "rate": 31.8
+        }
+      ],
+      "KwaZulu-Natal": [
+        {
+          "year": 2019,
+          "rate": 33.4
+        },
+        {
+          "year": 2020,
+          "rate": 36.8
+        },
+        {
+          "year": 2021,
+          "rate": 40.1
+        },
+        {
+          "year": 2022,
+          "rate": 38.9
+        },
+        {
+          "year": 2023,
+          "rate": 37.8
+        },
+        {
+          "year": 2024,
+          "rate": 37.2
+        }
+      ],
+      "Limpopo": [
+        {
+          "year": 2019,
+          "rate": 37.5
+        },
+        {
+          "year": 2020,
+          "rate": 40.2
+        },
+        {
+          "year": 2021,
+          "rate": 43.8
+        },
+        {
+          "year": 2022,
+          "rate": 41.6
+        },
+        {
+          "year": 2023,
+          "rate": 40.8
+        },
+        {
+          "year": 2024,
+          "rate": 40.1
+        }
+      ],
+      "Mpumalanga": [
+        {
+          "year": 2019,
+          "rate": 34.6
+        },
+        {
+          "year": 2020,
+          "rate": 37.8
+        },
+        {
+          "year": 2021,
+          "rate": 41.2
+        },
+        {
+          "year": 2022,
+          "rate": 39.3
+        },
+        {
+          "year": 2023,
+          "rate": 38.4
+        },
+        {
+          "year": 2024,
+          "rate": 37.9
+        }
+      ],
+      "North West": [
+        {
+          "year": 2019,
+          "rate": 36.1
+        },
+        {
+          "year": 2020,
+          "rate": 39.4
+        },
+        {
+          "year": 2021,
+          "rate": 43.1
+        },
+        {
+          "year": 2022,
+          "rate": 41.2
+        },
+        {
+          "year": 2023,
+          "rate": 40.1
+        },
+        {
+          "year": 2024,
+          "rate": 39.4
+        }
+      ],
+      "Northern Cape": [
+        {
+          "year": 2019,
+          "rate": 31.2
+        },
+        {
+          "year": 2020,
+          "rate": 33.8
+        },
+        {
+          "year": 2021,
+          "rate": 36.7
+        },
+        {
+          "year": 2022,
+          "rate": 34.9
+        },
+        {
+          "year": 2023,
+          "rate": 33.8
+        },
+        {
+          "year": 2024,
+          "rate": 33.2
+        }
+      ],
+      "Western Cape": [
+        {
+          "year": 2019,
+          "rate": 17.8
+        },
+        {
+          "year": 2020,
+          "rate": 20.1
+        },
+        {
+          "year": 2021,
+          "rate": 24.3
+        },
+        {
+          "year": 2022,
+          "rate": 21.8
+        },
+        {
+          "year": 2023,
+          "rate": 20.2
+        },
+        {
+          "year": 2024,
+          "rate": 19.6
+        }
+      ]
+    },
+    "provinces": [
+      "Eastern Cape",
+      "Free State",
+      "Gauteng",
+      "KwaZulu-Natal",
+      "Limpopo",
+      "Mpumalanga",
+      "North West",
+      "Northern Cape",
+      "Western Cape"
+    ],
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "latest_year": 2024,
+      "national_rate": 34.2,
+      "highest_province": {
+        "name": "Eastern Cape",
+        "rate": 42.8
+      },
+      "lowest_province": {
+        "name": "Western Cape",
+        "rate": 19.6
+      },
+      "total_unemployed": 7652000
+    }
+  },
+  "loadshedding": {
+    "annual": [
+      {
+        "year": 2019,
+        "total_hours": 132,
+        "total_days": 50,
+        "max_stage": 4,
+        "incidents": 11
+      },
+      {
+        "year": 2020,
+        "total_hours": 104,
+        "total_days": 51,
+        "max_stage": 3,
+        "incidents": 10
+      },
+      {
+        "year": 2021,
+        "total_hours": 434,
+        "total_days": 63,
+        "max_stage": 4,
+        "incidents": 31
+      },
+      {
+        "year": 2022,
+        "total_hours": 1272,
+        "total_days": 125,
+        "max_stage": 6,
+        "incidents": 66
+      },
+      {
+        "year": 2023,
+        "total_hours": 1444,
+        "total_days": 134,
+        "max_stage": 7,
+        "incidents": 84
+      },
+      {
+        "year": 2024,
+        "total_hours": 102,
+        "total_days": 93,
+        "max_stage": 2,
+        "incidents": 13
+      }
+    ],
+    "monthly": [
+      {
+        "year": 2019,
+        "month": "Jan",
+        "stage": 0,
+        "hours_per_day": 0,
+        "total_hours": 0
+      },
+      {
+        "year": 2019,
+        "month": "Mar",
+        "stage": 2,
+        "hours_per_day": 4,
+        "total_hours": 20
+      },
+      {
+        "year": 2019,
+        "month": "Dec",
+        "stage": 4,
+        "hours_per_day": 8,
+        "total_hours": 112
+      },
+      {
+        "year": 2020,
+        "month": "Jan",
+        "stage": 0,
+        "hours_per_day": 0,
+        "total_hours": 0
+      },
+      {
+        "year": 2020,
+        "month": "Jun",
+        "stage": 2,
+        "hours_per_day": 4,
+        "total_hours": 32
+      },
+      {
+        "year": 2020,
+        "month": "Nov",
+        "stage": 3,
+        "hours_per_day": 6,
+        "total_hours": 72
+      },
+      {
+        "year": 2021,
+        "month": "Jan",
+        "stage": 2,
+        "hours_per_day": 4,
+        "total_hours": 40
+      },
+      {
+        "year": 2021,
+        "month": "Mar",
+        "stage": 3,
+        "hours_per_day": 6,
+        "total_hours": 90
+      },
+      {
+        "year": 2021,
+        "month": "Jul",
+        "stage": 4,
+        "hours_per_day": 8,
+        "total_hours": 160
+      },
+      {
+        "year": 2021,
+        "month": "Dec",
+        "stage": 4,
+        "hours_per_day": 8,
+        "total_hours": 144
+      },
+      {
+        "year": 2022,
+        "month": "Jan",
+        "stage": 3,
+        "hours_per_day": 6,
+        "total_hours": 84
+      },
+      {
+        "year": 2022,
+        "month": "Apr",
+        "stage": 4,
+        "hours_per_day": 8,
+        "total_hours": 176
+      },
+      {
+        "year": 2022,
+        "month": "Jun",
+        "stage": 5,
+        "hours_per_day": 10,
+        "total_hours": 280
+      },
+      {
+        "year": 2022,
+        "month": "Sep",
+        "stage": 6,
+        "hours_per_day": 12,
+        "total_hours": 360
+      },
+      {
+        "year": 2022,
+        "month": "Dec",
+        "stage": 6,
+        "hours_per_day": 12,
+        "total_hours": 372
+      },
+      {
+        "year": 2023,
+        "month": "Jan",
+        "stage": 6,
+        "hours_per_day": 12,
+        "total_hours": 372
+      },
+      {
+        "year": 2023,
+        "month": "Mar",
+        "stage": 7,
+        "hours_per_day": 14,
+        "total_hours": 392
+      },
+      {
+        "year": 2023,
+        "month": "Jun",
+        "stage": 6,
+        "hours_per_day": 12,
+        "total_hours": 360
+      },
+      {
+        "year": 2023,
+        "month": "Sep",
+        "stage": 4,
+        "hours_per_day": 8,
+        "total_hours": 200
+      },
+      {
+        "year": 2023,
+        "month": "Dec",
+        "stage": 3,
+        "hours_per_day": 6,
+        "total_hours": 120
+      },
+      {
+        "year": 2024,
+        "month": "Jan",
+        "stage": 2,
+        "hours_per_day": 4,
+        "total_hours": 72
+      },
+      {
+        "year": 2024,
+        "month": "Mar",
+        "stage": 1,
+        "hours_per_day": 2,
+        "total_hours": 30
+      },
+      {
+        "year": 2024,
+        "month": "Jun",
+        "stage": 0,
+        "hours_per_day": 0,
+        "total_hours": 0
+      },
+      {
+        "year": 2024,
+        "month": "Sep",
+        "stage": 0,
+        "hours_per_day": 0,
+        "total_hours": 0
+      }
+    ],
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "worst_year": {
+        "year": 2023,
+        "total_hours": 1444,
+        "total_days": 134,
+        "max_stage": 7,
+        "incidents": 84
+      },
+      "best_year": {
+        "year": 2024,
+        "total_hours": 102,
+        "total_days": 93,
+        "max_stage": 2,
+        "incidents": 13
+      },
+      "total_hours_all_time": 3488,
+      "peak_stage": 7
+    }
+  },
+  "crime": {
+    "category_trends": {
+      "Burglary": [
+        {
+          "year": 2019,
+          "incidents": 201570
+        },
+        {
+          "year": 2020,
+          "incidents": 171004
+        },
+        {
+          "year": 2021,
+          "incidents": 189304
+        },
+        {
+          "year": 2022,
+          "incidents": 200904
+        },
+        {
+          "year": 2023,
+          "incidents": 193804
+        },
+        {
+          "year": 2024,
+          "incidents": 187704
+        }
+      ],
+      "Murder": [
+        {
+          "year": 2019,
+          "incidents": 11417
+        },
+        {
+          "year": 2020,
+          "incidents": 10627
+        },
+        {
+          "year": 2021,
+          "incidents": 11680
+        },
+        {
+          "year": 2022,
+          "incidents": 12303
+        },
+        {
+          "year": 2023,
+          "incidents": 11543
+        },
+        {
+          "year": 2024,
+          "incidents": 10847
+        }
+      ],
+      "Robbery": [
+        {
+          "year": 2019,
+          "incidents": 124239
+        },
+        {
+          "year": 2020,
+          "incidents": 107204
+        },
+        {
+          "year": 2021,
+          "incidents": 116904
+        },
+        {
+          "year": 2022,
+          "incidents": 124704
+        },
+        {
+          "year": 2023,
+          "incidents": 119804
+        },
+        {
+          "year": 2024,
+          "incidents": 115704
+        }
+      ],
+      "Vehicle Theft": [
+        {
+          "year": 2019,
+          "incidents": 101850
+        },
+        {
+          "year": 2020,
+          "incidents": 86604
+        },
+        {
+          "year": 2021,
+          "incidents": 95704
+        },
+        {
+          "year": 2022,
+          "incidents": 102004
+        },
+        {
+          "year": 2023,
+          "incidents": 98704
+        },
+        {
+          "year": 2024,
+          "incidents": 95404
+        }
+      ]
+    },
+    "province_summary": {
+      "Eastern Cape": {
+        "total": 55159,
+        "by_category": {
+          "Murder": 1856,
+          "Robbery": 17601,
+          "Vehicle Theft": 8501,
+          "Burglary": 27201
+        }
+      },
+      "Gauteng": {
+        "total": 164104,
+        "by_category": {
+          "Murder": 3101,
+          "Robbery": 41801,
+          "Vehicle Theft": 48201,
+          "Burglary": 71001
+        }
+      },
+      "KwaZulu-Natal": {
+        "total": 101804,
+        "by_category": {
+          "Murder": 2901,
+          "Robbery": 29201,
+          "Vehicle Theft": 21201,
+          "Burglary": 48501
+        }
+      },
+      "Western Cape": {
+        "total": 88592,
+        "by_category": {
+          "Murder": 2989,
+          "Robbery": 27101,
+          "Vehicle Theft": 17501,
+          "Burglary": 41001
+        }
+      }
+    },
+    "murder_trend": [
+      {
+        "year": 2019,
+        "incidents": 11417,
+        "avg_rate_per_100k": 31.6
+      },
+      {
+        "year": 2020,
+        "incidents": 10627,
+        "avg_rate_per_100k": 29.4
+      },
+      {
+        "year": 2021,
+        "incidents": 11680,
+        "avg_rate_per_100k": 32.6
+      },
+      {
+        "year": 2022,
+        "incidents": 12303,
+        "avg_rate_per_100k": 34.4
+      },
+      {
+        "year": 2023,
+        "incidents": 11543,
+        "avg_rate_per_100k": 32.3
+      },
+      {
+        "year": 2024,
+        "incidents": 10847,
+        "avg_rate_per_100k": 30.3
+      }
+    ],
+    "categories": [
+      "Burglary",
+      "Murder",
+      "Robbery",
+      "Vehicle Theft"
+    ],
+    "provinces": [
+      "Eastern Cape",
+      "Gauteng",
+      "KwaZulu-Natal",
+      "Western Cape"
+    ],
+    "years": [
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024
+    ],
+    "summary": {
+      "latest_year": 2024,
+      "highest_crime_province": "Gauteng",
+      "lowest_crime_province": "Eastern Cape"
+    }
+  }
+}
