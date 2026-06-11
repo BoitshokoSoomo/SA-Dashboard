@@ -49,10 +49,23 @@ python process.py
 This reads the three raw CSVs in `data/raw/` and outputs `data/clean.json`.
 
 ### Run the React dashboard
-Open `src/App.jsx` in a React-capable environment such as CodeSandbox or StackBlitz. This repository is structured as a React UI artifact and does not include a local bundler configuration.
+Open `src/App.jsx` in a React-capable environment such as CodeSandbox or StackBlitz, or run locally with Vite.
 
 ```bash
 npm install
+npm run dev
+```
+
+To preview the production build:
+
+```bash
+npm run start
+```
+
+To build the app for production:
+
+```bash
+npm run build
 ```
 
 ---
